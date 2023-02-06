@@ -67,5 +67,12 @@ PRODUCT_COPY_FILES += \
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/motorola/sm4350-common/platform.mk)
 
+
 # include board vendor blobs
 $(call inherit-product-if-exists, vendor/motorola/rhodep/rhodep-vendor.mk)
+
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
+
