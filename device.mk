@@ -50,6 +50,12 @@ BOOT_KERNEL_MODULES := \
 # NFC
 TARGET_USES_SEC_NFC := true
 
+# Overlays
+PRODUCT_PACKAGES += \
+    Settings \
+    overlay \
+    WifiResCommon
+
 # Power
 TARGET_IS_BLAIR := true
 
