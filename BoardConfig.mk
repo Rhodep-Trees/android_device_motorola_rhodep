@@ -42,7 +42,6 @@ BOARD_VENDOR_KERNEL_MODULES_LOAD := \
     q6_dlkm.ko \
     q6_notifier_dlkm.ko \
     q6_pdr_dlkm.ko \
-    qca_cld3_wlan.ko \
     touchscreen_mmi.ko \
     goodix_brl_mmi.ko \
     rx_macro_dlkm.ko \
@@ -58,7 +57,6 @@ BOARD_VENDOR_KERNEL_MODULES_LOAD := \
     wcd938x_slave_dlkm.ko \
     wcd9xxx_dlkm.ko \
     wcd_core_dlkm.ko \
-    wl2868c.ko \
     wlan.ko \
     wsa881x_analog_dlkm.ko \
     rt_pd_manager.ko

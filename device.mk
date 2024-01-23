@@ -43,9 +43,9 @@ BOOT_KERNEL_MODULES := \
     bq2589x_charger.ko \
     tcpc_sgm7220.ko \
     tcpc_rt1711h.ko \
-    rt_pd_manager.ko \
     touchscreen_mmi.ko \
-    goodix_brl_mmi.ko
+    goodix_brl_mmi.ko \
+    rt_pd_manager.ko
 
 # NFC
 TARGET_USES_SEC_NFC := true

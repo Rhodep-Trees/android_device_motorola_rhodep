@@ -41,4 +41,8 @@
 
     <!-- The padding of the rounded corners -->
     <dimen name="rounded_corner_content_padding">9dp</dimen>
+<!-- Path to fast charging status file to detect whether an oem fast charger is active -->
+    <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/power_supply/battery/fastchg_status</string>
+
+
 </resources>
