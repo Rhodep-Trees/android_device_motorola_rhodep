@@ -53,6 +53,9 @@ TARGET_USES_SEC_NFC := true
 # Power
 TARGET_IS_BLAIR := true
 
+# EvoX stuff
+DEVICE_PACKAGE_OVERLAYS += device/motorola/rhodep/overlay-evolution
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/motorola/sm4350-common/platform.mk)
 
