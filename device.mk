@@ -59,11 +59,6 @@ PRODUCT_PACKAGES += \
 # Power
 TARGET_IS_BLAIR := true
 
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
-    $(DEVICE_PATH)/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml
-
-
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/motorola/sm4350-common/platform.mk)
 
