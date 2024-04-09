@@ -50,10 +50,11 @@ BOOT_KERNEL_MODULES := \
 # NFC
 TARGET_USES_SEC_NFC := true
 
+# Matrixx overlay
+DEVICE_PACKAGE_OVERLAYS += device/motorola/rhodep/overlays
 # Overlays
 PRODUCT_PACKAGES += \
-    Settings \
-    overlay \
+    frameworks \
     WifiResCommon
 
 # Power
